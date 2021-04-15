@@ -31,9 +31,6 @@ def minecraft_ideator():
 
     ideaNum = str(len(ideas) - 1)
 
-    #print("You should build a " + random.choice(ideas) + " in your Minecraft world or SMP.")
-    #print("\nI have " + ideaNum + " more unique ideas. Feel free to ask me for more ideas.")
-
     idea = "You should build a " + random.choice(
         ideas
     ) + " in your Minecraft world or SMP. I have " + ideaNum + " more unique ideas. Feel free to ask me for more ideas."
